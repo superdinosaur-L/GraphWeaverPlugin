@@ -828,7 +828,7 @@ void UK2Node_SpawnGraphView::GetPinHoverText(const UEdGraphPin& Pin, FString& Ho
 
 FText UK2Node_SpawnGraphView::GetMenuCategory() const
 {
-	return NSLOCTEXT("PreGraphKN", "MenuCategory", "AnyGraph");
+	return NSLOCTEXT("PreGraphKN", "MenuCategory", "GraphWeaver");
 }
 
 void UK2Node_SpawnGraphView::GetMenuActions(FBlueprintActionDatabaseRegistrar& ActionRegistrar) const
@@ -1885,7 +1885,7 @@ void UK2Node_SpawnGraphNode::GetMenuActions(FBlueprintActionDatabaseRegistrar& A
 
 FText UK2Node_SpawnGraphNode::GetMenuCategory() const
 {
-	return NSLOCTEXT("PreGraphKN", "MenuCategory", "AnyGraph");
+	return NSLOCTEXT("PreGraphKN", "MenuCategory", "GraphWeaver");
 }
 
 bool UK2Node_SpawnGraphNode::ShouldShowNodeProperties() const
@@ -2065,4 +2065,5 @@ ContainerPtrToValuePtr
 //UEdGraphSchema_K2::SplitPin()
 //UK2Node_Variable
 //struct FMemberReference
+
 //CompileClassLayout
